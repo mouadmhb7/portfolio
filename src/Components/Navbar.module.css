@@ -1,0 +1,91 @@
+@import ".././vars.css";
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+    height:  0px;
+    position: relative;
+    height: 70px;
+    padding: 20px
+}
+nav>a {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.menu {
+    justify-content: space-between;
+    color:var(--color-text);
+    
+}
+.menuItems {
+    display: flex;
+    gap: 30px;
+    
+}
+.menuItems li a {
+    
+    font-size: 22px;
+}
+
+menu .icon {
+display: none;
+width: 30px;
+
+}
+.menu .icon span {
+    width: 35px;
+    background-color: var(--color-text);
+    height: 4px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+.menuOpe {
+    display: flex;
+    
+}
+.menu  .not{
+    display:none;
+    font-size: 30px;
+
+}
+@media (max-width : 830px){
+    .menuItems {
+        flex-direction: column;
+        position: absolute;
+        background-color:rgb(25,55,109);
+        background: linear-gradient(0deg ,rgba(25,55,109,0.2)0%,rgba(25,55,109,1)100%);
+        gap: 10px;
+        top: 75px;
+        right: 15px;
+        border-radius: 4px;
+        padding: 30px;
+        text-align: center;
+        display: none;
+        box-shadow: 0 0 4px 0 rgba(0,0,0,0.15);
+        z-index: 2;
+    }
+    .menu .icon span {
+        display: block;
+    }
+    .menu .not {
+        display: block;
+        margin-bottom: 60px;
+        padding-bottom: 20px;
+        position: relative;
+        top: -5px;
+        left: 0;
+    }
+    .menu .open {
+        display: none;
+    }
+    .menuOpe {
+        display: flex;
+        
+    }
+}
