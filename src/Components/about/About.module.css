@@ -1,0 +1,37 @@
+
+section.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(12,12, 12,0.6);
+    padding: 20px;
+}
+h2 {
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+section.container ul div {
+    width: 80%;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(90deg, rgba(72, 193, 234, 0.42) 0%,rgba(255, 255, 255, 0) 100%);
+    background-size: 0 100%;
+    transition: .4s;
+    background-repeat: no-repeat;
+    transition-delay: .2s;
+}
+section.container ul div:hover {
+    background-size: 100% 100%;
+} 
+section.container ul div p {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+}

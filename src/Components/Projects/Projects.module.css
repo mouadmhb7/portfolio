@@ -1,0 +1,49 @@
+
+@import"../../vars.css";
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 40px;
+    justify-content: center;
+    
+}
+.box{
+width: 350px;
+padding: 20px;
+
+border-radius: 8px;
+background: linear-gradient(180deg, #576cbc 0% , #132a53);
+box-shadow: 0 16px 14px 0 #04152d;
+}
+.box img {
+    max-width: 300px;
+    text-align: center;
+    border-radius: 8px;
+}
+.box h3 {
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+}
+.box p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #ccc;
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.links a {
+    background-color: var(--color-primary);
+    padding: 2px 15px;
+    border-radius: 8px;
+    margin: 15px 0 0;
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: capitalize;
+}

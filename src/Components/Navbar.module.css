@@ -13,7 +13,10 @@ nav {
 nav>a {
     font-size: 30px;
     letter-spacing: 2px;
-    font-weight: bold;
+    font-weight: 650;
+    text-transform: uppercase;
+    text-shadow: 3px 1px 16px #8098f8 ;
+
 }
 
 .menu {
@@ -24,11 +27,13 @@ nav>a {
 .menuItems {
     display: flex;
     gap: 30px;
-    
 }
 .menuItems li a {
-    
+    transition: .3s;
     font-size: 22px;
+}
+.menuItems li a:hover {
+    color: #8098f8 ;
 }
 
 menu .icon {
@@ -49,7 +54,7 @@ width: 30px;
     display: flex;
     
 }
-.menu  .not{
+.menu .not{
     display:none;
     font-size: 30px;
 
@@ -69,12 +74,13 @@ width: 30px;
         display: none;
         box-shadow: 0 0 4px 0 rgba(0,0,0,0.15);
         z-index: 2;
+    
     }
     .menu .icon span {
         display: block;
     }
     .menu .not {
-        display: block;
+        display: none;
         margin-bottom: 60px;
         padding-bottom: 20px;
         position: relative;
@@ -82,10 +88,12 @@ width: 30px;
         left: 0;
     }
     .menu .open {
-        display: none;
+        display: block;
     }
-    .menuOpe {
+    
+    .menuOpen{
         display: flex;
+
         
     }
 }

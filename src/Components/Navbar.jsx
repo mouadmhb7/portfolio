@@ -1,5 +1,8 @@
 import React,{useState} from "react";
 import Styles from "./Navbar.module.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { faXmark } from "@fortawesome/free-solid-svg-icons"; 
 
 function Navbar(){
         
@@ -13,19 +16,19 @@ function Navbar(){
 
         <nav>
 
-            <a href="/">Portfolio</a>
+            <a href="/">saylisse</a>
 
             <div className={Styles.menu}>
 
-                <ul className={`${Styles.menuItems} ${!menuOpen && Styles.menuOpe}`}>
+                <ul className={`${Styles.menuItems} ${menuOpen && Styles.menuOpen}`}>
 
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Project</a></li>
-                    <li><a href="contacts">Contacts</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
                     
                 </ul>
-                <div className={`${menuOpen && Styles.icon}`} onClick={ToggleTheIcon}  >
+                <div className={`${!menuOpen && Styles.icon}`} onClick={ToggleTheIcon}  >
                     <div>
                         <span></span>
                         <span></span>
@@ -36,7 +39,7 @@ function Navbar(){
 
 
                     <div className={`${Styles.not} ${menuOpen &&Styles.open}`}>
-                        x
+                    <FontAwesomeIcon icon={faXmark} />
                     </div>   
                 </div>
 
