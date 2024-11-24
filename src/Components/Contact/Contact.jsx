@@ -1,6 +1,6 @@
 import React from "react";
 import reactDOM from 'react-dom'
-import styles from "./contact.module.css";
+import styles from "./Contact.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons"; 
 import { faSquareWhatsapp , faWhatsapp} from "@fortawesome/free-brands-svg-icons"; 
