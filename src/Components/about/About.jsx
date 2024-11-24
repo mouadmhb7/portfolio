@@ -18,24 +18,7 @@ function About (){
                         </div>
                     </li>
                 </ul>
-                {/* <ul>
-                    <li>
-                        <img src="" alt="" />
-                        <div>
-                            <h3>triw triw</h3>
-                            <p>i'm a triw triw  tiw tiw </p>
-                        </div>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <img src="" alt="" />
-                        <div>
-                            <h3>triw triw</h3>
-                            <p>i'm a triw triw  tiw tiw </p>
-                        </div>
-                    </li>
-                </ul> */}
+                
             </div>
         </section>
     )
