@@ -1,6 +1,14 @@
 
 @import"../../vars.css";
 
+.projects h1 {
+text-align: center;
+font-size: 42px;
+margin-bottom: 50px;
+text-transform: uppercase;
+
+}
+
 .cards {
     display: flex;
     flex-wrap: wrap;

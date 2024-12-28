@@ -22,22 +22,28 @@ footer p {
     margin-bottom: 22px;
 }
 footer .links { 
-    
+    margin-bottom: 30px;
     gap: 30px;
     justify-content: center;
 }
 footer li {
-    background-color:red;
+    background-color:var(--color-dark);
     border-radius: 40px;
     margin-bottom: 10px;
+    padding: 5px;
 }
 footer li a {
-    width: 60px;
-    padding: 15px;
+    
+    padding: 10px;
     background-color: var(--color-primary);
     border-radius: 50%;
-    margin-bottom: 20px;
     
+    
+}
+footer li span {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
 }
 footer li .icon{
     font-size: 30px;
@@ -48,6 +54,7 @@ footer .inputs {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    
     /* width: calc(50% - 20px); */
 }
 footer .inputs input:not(:last-child) {
@@ -55,7 +62,7 @@ footer .inputs input:not(:last-child) {
     border-radius: 2px;
     padding: 10px;
     border: none;
-    
+    color: black;
 }
 footer .inputs input:focus {
     
@@ -66,6 +73,7 @@ footer .inputs textarea {
     min-height:90px ;
     padding: 10px;
     border: none;
+    color: black;
 }
 footer .inputs textarea:focus {
     border: none;
@@ -80,9 +88,16 @@ footer .inputs :last-child {
     cursor: pointer;
     margin-bottom: 30px;
 }
+footer .inputs input::placeholder {
+    color: var(--color-primary);
+
+}
+footer .inputs textarea::placeholder{
+    color:black;
+}
 @media(min-width : 856px) {
     footer .contacts {
-        width: 100%;
+        width: 100%; 
         display: flex;
         justify-content: center;
         gap: 60px;

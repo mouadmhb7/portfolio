@@ -18,18 +18,22 @@ function Contact() {
 
                 <ul className={styles.links}>
                         <p>feel free to rich out!</p>
-                        <li className="flex gap-5" >
-                            <a href="emalto:ilyas.alinane@gmail.com">
-                                <FontAwesomeIcon className={styles.icon} icon={faEnvelope} />
-                            </a>
-                            <p>ilyas.alinane@gmail.com</p>
-                        </li>
-                        <li className="flex gap-5"> 
-                        <a href="https://wa.me/0607605389">
-                        <FontAwesomeIcon className={styles.icon} icon={faWhatsapp} />
+                        <a href="mailto:ilyas.alinane@gmail.com">
+                            <li className="flex gap-5" >
+                                <a href="emalto:ilyas.alinane@gmail.com">
+                                    <FontAwesomeIcon className={styles.icon} icon={faEnvelope} />
+                                </a>
+                                <span>ilyas.alinane@gmail.com</span>
+                            </li>
                         </a>
-                        <p>0670326513</p>
-                        </li>
+                        <a href="https://wa.me/0607605389">
+                            <li className="flex gap-5"> 
+                            <a href="https://wa.me/0607605389">
+                            <FontAwesomeIcon className={styles.icon} icon={faWhatsapp} />
+                            </a>
+                            <span>0670326513</span>
+                            </li>
+                        </a>    
                     </ul>
 
                     <div className={styles.inputs}>
