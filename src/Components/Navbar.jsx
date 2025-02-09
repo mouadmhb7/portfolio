@@ -16,7 +16,7 @@ function Navbar(){
 
         <nav>
 
-            <a href="/">saylisse</a>
+        
 
             <div className={Styles.menu}>
 
@@ -38,7 +38,7 @@ function Navbar(){
              
 
 
-                    <div className={`${Styles.not} ${menuOpen &&Styles.open}`}>
+                    <div className={`${Styles.not} ${menuOpen && Styles.open}`}>
                     <FontAwesomeIcon icon={faXmark} />
                     </div>   
                 </div>

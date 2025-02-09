@@ -4,8 +4,9 @@
 .container {
     display: flex;
     position: relative;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     height: 100vh;
     justify-content: space-between;
 }
@@ -22,7 +23,7 @@
     z-index: 1;
 }
 .container p {
-    width: 600px;
+    max-width: 600px;
     font-size: 23px;
     line-height: 1.9;
     text-align: center;
@@ -48,6 +49,8 @@
 }
 .container img {
     width: 400px;
+    /* height: 400px; */
+    overflow: hidden;
     border-radius: 50%;
     align-self: center;
     justify-self: end;
@@ -70,8 +73,8 @@
 }
 .topBlur {
     position: absolute;
-    width: 400px;
-    height: 400px;
+    width: 345px;
+    height: 350px;
     background-color: rgba(25, 55, 109, 0.7);
     top: 60px;
     left: 80px;
@@ -101,16 +104,16 @@
         margin-top:-160px;
     }
     .container img {
-        width: 350px;
-        margin-top: -30px;
+        width: 340px;
+        margin-top: -80px;
         margin-bottom: 0;
     }
     .container h1 {
         margin-top: 0;
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
     .container p {
-        max-width: 70%;
+        max-width: 80%;
         margin-left: auto;
         margin-right: auto;
     }

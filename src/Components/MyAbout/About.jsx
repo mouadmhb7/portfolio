@@ -12,7 +12,7 @@ function About (){
                     <li>
                         <div>
                             
-                            <p>i'm a triw triw  tiw tiw Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptas sunt ipsum, maxime dignissimos unde beatae laudantium quod veritatis qui mollitia nihil tempore fuga corrupti odio in dicta, explicabo ipsam?
+                            <p>Hi there! I'm mouaad hbich form larach morocco, a passionate front-end developer can creating engaging and user-friendly web interfaces. I specialize in HTML, CSS, JavaScript, and modern frameworks like React
                             </p>
                         </div>
                     </li>

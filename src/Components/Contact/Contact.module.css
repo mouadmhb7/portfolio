@@ -5,25 +5,33 @@ footer .container {
     margin-left: auto;
     margin-right: auto;
 }
+footer .contacts ul {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
 
 footer h1 {
-    font-size: 45px;
+    font-size: 32px;
     font-weight: 400;
     text-align: center;
-    margin-top:70px ;
-    margin-bottom:30px ;
+    margin-top:100px ;
+    margin-bottom:50px ;
     text-transform:uppercase;
 }
 footer p {
     text-align: center;
     letter-spacing: 1px;
-    font-size:27px ;
+    font-size:29px ;
     font-weight: 400;
     margin-bottom: 22px;
 }
 footer .links { 
+    display: flex;
+    flex-direction: column;
     margin-bottom: 30px;
-    gap: 30px;
+    gap: 15px;
     justify-content: center;
 }
 footer li {
@@ -50,12 +58,32 @@ footer li .icon{
     margin-left: auto;
     margin-right: auto;
 }
+
+footer .line {
+    max-width: 300px;
+    height: 1px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 footer .inputs {
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    
-    /* width: calc(50% - 20px); */
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+footer .inputs  p{
+    font-size: 19px;
+    text-align: left;
+    margin: 0;
+    text-transform: capitalize;
+    padding: 5px;
 }
 footer .inputs input:not(:last-child) {
     height: 40px;
@@ -87,28 +115,38 @@ footer .inputs :last-child {
     font-weight: 500;
     cursor: pointer;
     margin-bottom: 30px;
+    margin-top: 25px;
 }
 footer .inputs input::placeholder {
     color: var(--color-primary);
 
 }
 footer .inputs textarea::placeholder{
-    color:black;
+    color:var(--color-primary);
 }
+
 @media(min-width : 856px) {
     footer .contacts {
         width: 100%; 
         display: flex;
         justify-content: center;
+        
         gap: 60px;
+        
     }
     footer ul {
         width: calc(550px);
-        
+        margin-bottom: 100px;
+    }
+    footer .line {
+        width: 1px;
+        height: 300px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     footer .inputs {
         min-width: 300px;
         width: calc(50% - 30px);
-        width: 550px;
+        
     }  
 }
