@@ -10,7 +10,7 @@ import { faSquareWhatsapp , faWhatsapp , faGithub } from "@fortawesome/free-bran
 
 function Contact() {
     return(
-        <footer id="contacts">
+        <div id="contact" className={styles.contact}>
             <h1>contact</h1>
             <div className={styles.container}>
                 
@@ -60,7 +60,7 @@ function Contact() {
                     </ul>
                 </div>
             </div>   
-        </footer>
+        </div>
     )
 }
 export default Contact;

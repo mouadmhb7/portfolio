@@ -1,18 +1,18 @@
 @import "../../vars.css";
 
-footer .container {
+.contact .container {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
-footer .contacts ul {
+.contact .contacts ul {
     max-width: 450px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0px;
+    margin-bottom: 40px;
 }
 
-footer h1 {
+.contact h1 {
     font-size: 32px;
     font-weight: 400;
     text-align: center;
@@ -20,27 +20,28 @@ footer h1 {
     margin-bottom:50px ;
     text-transform:uppercase;
 }
-footer p {
+.contact p {
     text-align: center;
     letter-spacing: 1px;
     font-size:29px ;
     font-weight: 400;
     margin-bottom: 22px;
 }
-footer .links { 
+.contact .links { 
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-bottom: 309px;
     gap: 15px;
     justify-content: center;
+
 }
-footer li {
+.contact li {
     background-color:var(--color-dark);
     border-radius: 40px;
     margin-bottom: 10px;
     padding: 5px;
 }
-footer li a {
+.contact li a {
     
     padding: 10px;
     background-color: var(--color-primary);
@@ -48,18 +49,18 @@ footer li a {
     
     
 }
-footer li span {
+.contact li span {
     margin-top: auto;
     margin-bottom: auto;
     font-size: 20px;
 }
-footer li .icon{
+.contact li .icon{
     font-size: 30px;
     margin-left: auto;
     margin-right: auto;
 }
 
-footer .line {
+.contact .line {
     max-width: 300px;
     height: 1px;
     background-color: white;
@@ -69,7 +70,7 @@ footer .line {
     margin-bottom: 50px;
 }
 
-footer .inputs {
+.contact .inputs {
     display: flex;
     flex-direction: column;
     max-width: 450px;
@@ -78,36 +79,36 @@ footer .inputs {
 
 
 }
-footer .inputs  p{
+.contact .inputs  p{
     font-size: 19px;
     text-align: left;
     margin: 0;
     text-transform: capitalize;
     padding: 5px;
 }
-footer .inputs input:not(:last-child) {
+.contact .inputs input:not(:last-child) {
     height: 40px;
     border-radius: 2px;
     padding: 10px;
     border: none;
     color: black;
 }
-footer .inputs input:focus {
+.contact .inputs input:focus {
     
     outline: 2px solid var(--color-primary);
 }
-footer .inputs textarea {
+.contact .inputs textarea {
     border-radius: 2px;
     min-height:90px ;
     padding: 10px;
     border: none;
     color: black;
 }
-footer .inputs textarea:focus {
+.contact .inputs textarea:focus {
     border: none;
     outline: 2px solid var(--color-primary);
 }
-footer .inputs :last-child {
+.contact .inputs :last-child {
     padding: 10px;
     background-color: var(--color-primary);
     border-radius: 2px;
@@ -117,16 +118,16 @@ footer .inputs :last-child {
     margin-bottom: 30px;
     margin-top: 25px;
 }
-footer .inputs input::placeholder {
+.contact .inputs input::placeholder {
     color: var(--color-primary);
 
 }
-footer .inputs textarea::placeholder{
+.contact .inputs textarea::placeholder{
     color:var(--color-primary);
 }
 
 @media(min-width : 856px) {
-    footer .contacts {
+    .contact .contacts {
         width: 100%; 
         display: flex;
         justify-content: center;
@@ -134,17 +135,17 @@ footer .inputs textarea::placeholder{
         gap: 60px;
         
     }
-    footer ul {
+    .contact ul {
         width: calc(550px);
         margin-bottom: 100px;
     }
-    footer .line {
+    .contact .line {
         width: 1px;
         height: 300px;
         margin-top: auto;
         margin-bottom: auto;
     }
-    footer .inputs {
+    .contact .inputs {
         min-width: 300px;
         width: calc(50% - 30px);
         

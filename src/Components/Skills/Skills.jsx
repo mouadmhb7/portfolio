@@ -8,7 +8,7 @@ import {getImageUrl} from "../../Utils"
 
 function Skills(){
     return(
-            <div className={Styles.skills}>
+            <div className={Styles.skills} id="skills">
                 <h2>skills</h2>
                 {/* <img src={getImageUrl("imges/css.png")} alt="css icon" /> */}
                 <div className={`${Styles.cards}`}>

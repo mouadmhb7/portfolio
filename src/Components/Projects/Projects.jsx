@@ -9,8 +9,8 @@ function Projects () {
             <div className= {Styles.cards}>
                 <div className={Styles.box}>
                     <img src={getImageUrl("imges/C.png")} alt="" />
-                    <h3>conpany project</h3>
-                    <p>this is project for a conpany </p>
+                    <h3>Template one</h3>
+                    <p>this is template made with html and css and javascript. </p>
                     <div className={Styles.links}>
                         <a href="https://the-first-wheat.vercel.app/">demo</a>
                         <a href="https://github.com/mouadmhb7/TheFirst">source</a>
@@ -18,8 +18,8 @@ function Projects () {
                 </div>
                 <div className={Styles.box}>
                     <img src={getImageUrl("imges/elzero.png")} alt="" />
-                    <h3>project B</h3>
-                    <p>thi project is a video for a hospital to show</p>
+                    <h3> Template two </h3>
+                    <p>this project is made with html and css .</p>
                     <div className={Styles.links}>
                         <a href="https://my-projecte.vercel.app/">demo</a>
                         <a href="https://github.com/mouadmhb7/myProjecte">source</a>
@@ -27,8 +27,8 @@ function Projects () {
                 </div>
                 <div className={Styles.box}>
                     <img src={getImageUrl("imges/kasper-project.png")} alt="" />
-                    <h3>project c</h3>
-                    <p>thi project is a video for a hospital to show</p>
+                    <h3>Template three </h3>
+                    <p>this template made with html and css .</p>
                     <div className={Styles.links}>
                         <a href="https://second-ejfc.vercel.app/">demo</a>
                         <a href="https://github.com/mouadmhb7/Casper">source</a>
