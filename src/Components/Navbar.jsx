@@ -13,21 +13,26 @@ function Navbar(){
     function ToggleTheIcon(){
         setMenuOpen(!menuOpen)
     }
-
-    function changeTheNav(){
+    const [navColor , setNaveColor] = useState(false)
+    window.onscroll = function ChangeTheNav(){
         
-        if(scrollY = 0){
-            
+        if( window.pageYOffset === 0){
+            setNaveColor(false)
+            console.log("fiw fiw")
         }
-    }
+        else {
+            setNaveColor(true)
+        }   
+        }
+    
+
     return(
 
-        <nav onChange={changeTheNav}>
+    <nav className={navColor && Styles.top} >
             <div className={Styles.logo}>
-                <img src={getImageUrl("logo/my-logo1.png")} />
+                <a href="/"><img  src={getImageUrl("logo/my-logo1.png")} /> </a>
             </div>
-        
-
+    
             <div className={Styles.menu}>
 
                 <ul className={`${Styles.menuItems} ${menuOpen && Styles.menuOpen}`}>
@@ -45,10 +50,6 @@ function Navbar(){
                         <span></span>
                         <span></span>
                     </div> 
-
-             
-
-
                     <div className={`${Styles.not} ${menuOpen && Styles.open}`}>
                     <FontAwesomeIcon icon={faXmark} />
                     </div>   
@@ -58,5 +59,6 @@ function Navbar(){
 
         </nav>
     )
-}
+    }
+
 export default Navbar;

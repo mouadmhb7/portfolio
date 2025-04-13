@@ -5,7 +5,7 @@ nav {
     display: flex;
     justify-content: space-between;
     
-    background: rgba(19, 20, 27, 0.764);
+    /* background: rgba(19, 20, 27, 0.764); */
     width: 100%;
 
     position: fixed;
@@ -24,10 +24,7 @@ nav>a {
 }
 .logo {
     width: 50px;
-    
-;
-    
-
+    cursor: pointer;
 }
 .logo img {
     margin-top: -10px;
@@ -139,6 +136,9 @@ margin-left: 0;
         
         
     }
+    .menu .icon {
+        cursor: pointer;
+    }
     .menu .icon span {
         display: block;
     }
@@ -168,5 +168,11 @@ margin-left: 0;
         opacity: 1;
 
         }
-    
+        
+}
+@media (min-width :830px){
+    .top {
+        /* background-color: rgba(44, 44, 156, 0.515); */
+        background-color:rgba(11, 36, 71, 0.396);
+    }
 }

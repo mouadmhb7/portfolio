@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer() {
     return (
-        <footer>
+        <footer className={Styles.footer}>
             <div>
                 <p>created with love by mouaad (:</p>
             </div>
